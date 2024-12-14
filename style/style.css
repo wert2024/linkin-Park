@@ -1,0 +1,70 @@
+body {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer";
+    grid-template-rows: 200px 1fr 100px;
+    grid-template-columns: 25% 1fr;
+    grid-gap: 4px;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    grid-area: header;
+    font-size: 32px;
+    padding-top: 30px;
+    background: url(../images/header.jpg);
+    background-position: center;     
+    background-repeat: no-repeat; 
+    background-color: black; 
+}
+
+.Linkin_Park {
+   margin-left: 10%;
+   margin-top: 3%;
+   color: antiquewhite;
+}
+
+main {
+    grid-area: main;
+    background-color: antiquewhite;
+    font-size: 22px;
+    padding-left: 5%;
+}
+
+.article1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.article1 :visited {
+    color: black;
+}
+
+.article2 {
+    margin-bottom: 10px;
+}
+
+.article2 :visited {
+    color: black;
+}
+
+.article3 :visited {
+    color: black;
+}
+
+
+aside {
+    background-color: antiquewhite;
+    grid-area: aside;
+}
+
+footer {
+    background-color: antiquewhite;
+    grid-area: footer;
+    text-align: center;
+    padding-top: 30px;
+}
+

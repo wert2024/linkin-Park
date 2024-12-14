@@ -1,0 +1,43 @@
+body {
+    background-color: antiquewhite;
+    width: 750px;
+    margin: 75px auto;
+    font-size: 22px;
+}
+
+.text-bolt {
+    font-weight: bold;
+}
+
+.audio {
+    margin-top: 50px;
+    margin-left: 4%;
+    margin-bottom: 0px;
+}
+
+.audio2 {
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+
+.end {
+    font-size: 20px;
+}
+
+
+.foto {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.foto_Chester_Bennington {
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 2%; 
+}
+
+footer {
+    margin-bottom: 300px;
+}

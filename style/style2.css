@@ -1,0 +1,40 @@
+body {
+    background-color: antiquewhite;
+    width: 750px;
+    margin: 75px auto;
+    font-size: 22px;
+}
+
+.text-bolt {
+    font-weight: bold;
+}
+
+.chorus1, .chorus2, .chorus3, .chorus4, .chorus5 {
+    margin-top: 75px;
+    margin-left: 25%;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.foto {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.foto_Chester_Bennington {
+    display: block;
+    width: 75%;
+    margin: 0px auto;
+    border-radius: 2%; 
+}
+
+.foto2{
+    text-align: center;
+}
+
+footer {
+    margin-bottom: 300px;
+}
+
+
+
